@@ -1,0 +1,146 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+} 
+.back-bg{
+  background-color: #97d7fa;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.logo{
+  position: absolute;
+  top: 55px;
+    left: 70px;
+}
+.footerlink{
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  z-index: 9;
+}
+
+.footerlink .one img{
+width: 70px;
+padding-bottom: 14px;
+
+}
+.footerlink .one span{
+  font-size: 40px;
+  padding: 0px 95px 0px 20px;
+  color: white;
+}
+.ten{
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialmedia {
+  position: absolute;
+  top: 319px;
+  left: -8px;
+  mix-blend-mode: screen;
+}
+.bg-animation{
+  position: absolute;
+  animation: like1one 5s linear 2s infinite;
+      top: -580px;
+  z-index: 2;
+   mix-blend-mode: screen;
+}
+@keyframes like1one {
+ 
+  from{
+    top: -580px;
+  }
+  
+  to{
+    top: -1180px;
+  }
+} 
+.padd a span{
+  padding: 0px 0px 0px 20px!important;
+}
+.back-building {
+  z-index: 2;
+  bottom: -137px;
+  left: 84px;
+  width: 94%;
+  position: absolute;
+  transform: scaleX(1.1);
+  animation-name: building-leftright;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes building-leftright {
+  
+0%{
+  left: 84px;
+}
+10%{
+  left: 20px;
+}
+20%{
+  left: 84px;
+}
+30%{
+  left: 20px;
+}
+40%{
+  left: 84px;
+}
+50%{
+  left: 20px;
+}
+60%{
+  left: 84px;
+}
+70%{
+  left: 20px;
+}
+80%{
+  left: 84px;
+}
+90%{
+  left: 20px;
+}
+100%{
+  left: 84px;
+}
+}
+.centerrect {
+  display: flex;
+  justify-content: center;
+
+  width: 66%;
+  height: 66%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  left: 49.5%;
+  background-color: #f5f5f5;
+  position: absolute;
+  box-shadow: 0px 15px 10px -15px #111; 
+}
+.iptv h2{
+  text-transform: uppercase;
+  font-size: 140px;
+  color: #e0e0e0;
+
+}
+.iptv{
+    max-width: 432px;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+}
+
+
